@@ -90,7 +90,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Workspace/Users/prithwishc94@gmail.com/01_landing_to_bronze"
+					"notebookPath": "/Users/prithwishc94@gmail.com/01_landing_to_bronze"
 				},
 				"linkedServiceName": {
 					"referenceName": "ls_azure_databricks",
