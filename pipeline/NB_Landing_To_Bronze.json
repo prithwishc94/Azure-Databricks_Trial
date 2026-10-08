@@ -63,7 +63,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"p_path": "bronze",
-							"p_filename": "customers_seed.csvv"
+							"p_filename": "customers_seed.csv"
 						}
 					}
 				]
