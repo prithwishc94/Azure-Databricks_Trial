@@ -31,7 +31,11 @@
 				"inputs": [
 					{
 						"referenceName": "src_landing",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"p_path": "landing",
+							"p_filename": "customers_seed.csv"
+						}
 					}
 				]
 			}
