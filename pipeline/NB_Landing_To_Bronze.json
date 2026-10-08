@@ -5,6 +5,8 @@
 			{
 				"name": "Copy data1",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -86,7 +88,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Workspace/Users/prithwishc94@gmail.com/01_landing_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_azure_databricks",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
